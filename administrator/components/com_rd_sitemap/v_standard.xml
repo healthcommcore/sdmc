@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<params>
+		<param name="title" type="text" default="" label="TITLEVIEW" description="DESCTITLEVIEW" />
+
+		<param name="show_title" type="radio" default="1" label="SHOWTITLE" description="DESCSHOWTITLE">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+
+		<param name="show_section" type="radio" default="1" label="SHOWSECTION" description="DESCSHOWSECTION">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+
+		<param name="show_category" type="radio" default="1" label="SHOWCATEGORY" description="DESCSHOWCATEGORY">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+
+	</params>
+</config> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<params>
+	
+	  <param name="menutype" type="mos_menu" default="" label="MENUSELECTION" description="The name of the menu (default is mainmenu)" />
+	
+		<param name="title" type="text" default="" label="TITLEVIEW" description="DESCTITLEVIEW" />
+
+		<param name="show_title" type="radio" default="1" label="SHOWTITLE" description="DESCSHOWTITLE">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+
+		<param name="maxlevels" type="text" default="5" label="MAXLEVELS" description="DESCMAXLEVELS" />
+	</params>
+</config>

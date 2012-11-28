@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>hcc_template_1</name>
+    <version>1.5.1</version>
+    <creationDate>12/01/10</creationDate>
+    <author>Dave Rothfarb</author>
+    <authorUrl>http://www.healthcommcore.org</authorUrl>
+    <copyright>Copyright 2010 Health Communication Core</copyright>
+    <description>
+			<![CDATA[
+			<h1>HCC Template 1</h1>
+
+			This is the first template in a series of custom-made HCC templates, specifically for HCC projects.	
+
+			]]>  	
+    </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+	</files>
+	<positions>
+		<position>home_header</position>
+		<position>home_modules</position>
+		<position>small_header</position>
+		<position>horiz_menu</position>
+		<position>search</position>
+		<position>left_menu</position>
+		<position>left_extra</position>
+		<position>right_menu</position>
+		<position>right_extra</position>
+		<position>footer_top</position>
+		<position>footer_bottom</position>
+		<position>bottom_module</position>
+	</positions>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_rt_solarsentinel_j15.ini</language>
+	</languages>
+</install>

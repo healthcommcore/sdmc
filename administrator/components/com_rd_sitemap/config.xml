@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+  <params>
+ 	<param name="show_title" type="radio" default="1" label="SHOWMENUTITLE" description="DESCSHOWMENUTITLE">
+		<option value="0">MENUTITLE</option>
+		<option value="1">COMPONENTTITLE</option>
+	</param>
+  	<param name="defaulttitle" size="40" type="text" default="Sitemap Component by Run Digital" label="COMPONENTTITLE" description="DESCCOMPONENTTITLE" />
+
+	<param name="headerlevel" type="radio" default="1" label="HEADERLEVEL" description="DESCHEADERLEVEL">
+		<option value="1">h1</option>
+		<option value="2">h2</option>
+		<option value="3">h3</option>
+		<option value="4">h4</option>
+		<option value="5">h5</option>
+	</param>
+
+	<param name="show_rd_footer" type="radio" default="1" label="SHOWRDFOOTER" description="DESCSHOWRDFOOTER">
+		<option value="0">HIDE</option>
+		<option value="1">SHOW</option>
+	</param>
+
+  </params>
+
+</config>

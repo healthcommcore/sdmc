@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+  <name>RD_Sitemap</name>
+  <creationDate>Aug 2007</creationDate>
+  <author>Robert Deutz</author>
+  <copyright>This component in released under the GNU/GPL License</copyright>
+  <license>GPL</license>
+  <authorEmail>contact@run-digital.com</authorEmail>
+  <authorUrl>www.run-digital.com</authorUrl>
+  <version>2.0.J-rc1</version>
+  <description>Sitemap for Joomla 1.5 </description>
+  <files folder="site">
+    <folder>adapter</folder>
+    <folder>controllers</folder>
+    <filename>index.html</filename>
+    <folder>models</folder>
+    <filename>rd_sitemap.php</filename>
+    <folder>views</folder>
+  </files>
+
+  <languages>
+    <language tag="en-GB">site/languages/en-GB.com_rd_sitemap.ini</language>
+    <language tag="de-DE">site/languages/de-DE.com_rd_sitemap.ini</language>
+  </languages>
+
+  <installfile>install.rd_sitemap.php</installfile>
+
+  <uninstallfile>uninstall.rd_sitemap.php</uninstallfile>
+
+<administration>
+    <menu>RD Sitemap</menu>
+    <submenu>
+      <menu link="option=com_rd_sitemap&amp;section=view&amp;task=view">VIEW</menu>
+      <menu link="option=com_rd_sitemap&amp;section=viewset&amp;task=view">VIEWSET</menu>
+    </submenu>
+    <files folder="admin">
+      <folder>adapter</folder>
+      <filename>admin.rd_sitemap.html.php</filename>
+      <filename>admin.rd_sitemap.php</filename>
+      <filename>config.xml</filename>
+      <folder>controllers</folder>
+      <folder>elements</folder>
+      <filename>example_css.css</filename>
+      <folder>images</folder>
+      <filename>index.html</filename>
+      <filename>m_standard.xml</filename>
+      <folder>tables</folder>
+      <filename>toolbar.rd_sitemap.html.php</filename>
+      <filename>toolbar.rd_sitemap.php</filename>
+      <filename>v_standard.xml</filename>
+      <folder>views</folder>
+    </files>
+    <languages>
+      <language tag="en-GB">admin/languages/en-GB.com_rd_sitemap.ini</language>
+      <language tag="en-GB">admin/languages/en-GB.com_rd_sitemap.menu.ini</language>
+      <language tag="de-DE">admin/languages/de-DE.com_rd_sitemap.ini</language>
+      <language tag="de-DE">admin/languages/de-DE.com_rd_sitemap.menu.ini</language>
+    </languages>
+  </administration>
+  <params/>
+</install>

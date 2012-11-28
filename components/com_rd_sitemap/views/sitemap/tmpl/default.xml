@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Standard Sitemap Layout">
+		<message>
+			<![CDATA[STANDARD SITEMAP LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Standard Sitemap Layout</name>
+		<description>STANDARD SITEMAP LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_rd_sitemap/elements">
+			<param name="id" type="viewset" default="0" label="SELECTAVIEWSET" description="DESCSELECTAVIEWSET" />
+		</url>
+		<params>
+		  	<param name="classdiv" type="text" default="" label="CLASSFORDIV" description="DESCCLASSFORDIV" />
+
+			<param name="mode" type="radio" default="0" label="MODE" description="DESCMODE">
+				<option value="0">CLASS</option>
+				<option value="1">CONTEXTSELECTORS</option>
+			</param>
+		</params>
+	</state>
+</metadata>

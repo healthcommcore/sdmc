@@ -1,0 +1,68 @@
+/**
+ * Example CSS File for Sitemap
+ * @version $Id: example_css.css 10 2007-08-24 14:19:42Z deutz $
+ * @package RD_Sitemap
+ * @copyright Copyright (C) 2005 run-digital
+ * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+ *
+ * This is free software
+ **/
+
+/* example 1  Mode: class*/
+
+.unsichtbar {display:none;}
+
+.sitemapebene0 {padding-left: 10px;}
+.sitemapebene1 {padding-left: 10px;}
+.sitemapebene2 {padding-left: 10px;}
+.sitemapebene3 {padding-left: 10px;}
+.sitemapebene4 {padding-left: 10px;}
+.sitemapebene5 {padding-left: 10px;}
+.sitemapebene6 {padding-left: 10px;}
+.sitemapebene7 {padding-left: 10px;}
+.sitemapebene8 {padding-left: 10px;}
+.sitemapebene9 {padding-left: 10px;}
+.sitemapcontent {padding-left: 10px;}
+
+
+/* example 2  Mode: class */
+/* change "Class for div:" to "sitemap" */
+
+.sitemap {padding-left: 10px;padding-top:20px;}
+
+.unsichtbar {display:none;}
+
+.sitemapebene0 {padding-left: 10px;}
+.sitemapebene1 {padding-left: 10px;}
+.sitemapebene2 {padding-left: 10px;}
+.sitemapebene3 {padding-left: 10px;}
+.sitemapebene4 {padding-left: 10px;}
+.sitemapebene5 {padding-left: 10px;}
+.sitemapebene6 {padding-left: 10px;}
+.sitemapebene7 {padding-left: 10px;}
+.sitemapebene8 {padding-left: 10px;}
+.sitemapebene9 {padding-left: 10px;}
+.sitemapcontent {padding-left: 10px;}
+
+/* example 3  Mode: contextselectors */
+/* change "Class for div:" to "sitemap" */
+
+.sitemap {padding-left: 10px;padding-top:20px;}
+
+.sitemap h1 {color:maroon;}
+.sitemap h2 {color:navy;}
+.sitemap h3 {color:purple;}
+.sitemap h4 {color:gray;}
+
+.sitemap ul {padding-left: 10px;}
+.sitemap ul ul {padding-left: 10px;}
+.sitemap ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul ul ul ul ul {padding-left: 10px;}
+.sitemap ul ul ul ul ul ul ul ul ul ul {padding-left: 10px;}
+
+/** EOF **/

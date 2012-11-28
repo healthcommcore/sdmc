@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* IE 7 fixes */
+
+
+.module_menu{margin-left:40px;}
+.module_home_header h1{margin-top:-68px;}
+.module_home_header p{margin-top:10px;}
+.horiz_menu{margin-top:9px;}
+.center_position{padding-left:25px;}
+.module_home_features{}
+.module_home_features div{height:407px;}
+.module_home_features div div{height:auto;}
+.module_home_features ul{padding-left:30px; margin-top:10px;}
+.footer_text{position:absolute; right:15px;}
+.main{position:relative;}
+
+
+
