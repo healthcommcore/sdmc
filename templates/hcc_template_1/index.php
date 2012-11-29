@@ -20,7 +20,7 @@ $page = JRequest::getURI();
 <?php if($this->direction == 'rtl') : ?>
 	<link href="<?php echo $this->baseurl ?>/templates/rhuk_milkyway/css/template_rtl.css" rel="stylesheet" type="text/css" />
 <?php endif; ?>
-<!----Google Analytics ---->
+<!--Google Analytics -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -144,7 +144,7 @@ $page = JRequest::getURI();
             	<div id="bottom_module">
                 	<jdoc:include type="modules" name="bottom_module" style="rounded" />
                 </div>
-            <? endif; ?>
+            <?php endif; ?>
        </div>                 
     </div>
 </body>

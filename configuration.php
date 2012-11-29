@@ -15,8 +15,8 @@ class JConfig {
 	var $gzip = '0';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '0';
-	var $log_path = '/var/www/surveycore.org/logs';
-	var $tmp_path = '/var/www/surveycore.org/tmp';
+	var $log_path = '/var/www/html/surveycore.org/logs';
+	var $tmp_path = '/var/www/html/surveycore.org/tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
 	var $offset = '-5';
