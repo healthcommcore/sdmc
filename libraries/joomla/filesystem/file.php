@@ -64,6 +64,8 @@ class JFile
 	 * @since 1.5
 	 */
 	function makeSafe($file) {
+		// Remove any trailing dots, as those aren't ever valid file names.
+		$file = rtrim($file, '.');
 		$regex = array('#(\.){2,}#', '#[^A-Za-z0-9\.\_\- ]#', '#^\.#');
 		return preg_replace($regex, '', $file);
 	}
